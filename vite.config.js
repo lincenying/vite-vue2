@@ -77,7 +77,7 @@ const config = defineConfig({
     ],
 
     server: {
-        port: 7774,
+        port: 7772,
         proxy: {
             '/api': {
                 target: 'http://php.mmxiaowu.com',
