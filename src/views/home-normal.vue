@@ -5,7 +5,7 @@
             <van-pull-refresh v-model="isLoading" @refresh="onRefresh">
                 <div class="lists">
                     <div v-for="(item, index) in list" :key="index" class="item u-border-bottom">
-                        <router-link :to="`/index/detail?id=${item.c_id}`">{{ item.c_title }}</router-link>
+                        <router-link class="text-14px" :to="`/index/detail?id=${item.c_id}`">{{ item.c_title }}</router-link>
                     </div>
                 </div>
                 <infinite-loading :identifier="identifier" @infinite="infiniteHandler" spinner="waveDots">
