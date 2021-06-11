@@ -1,7 +1,7 @@
 <template>
     <div class="home-normal-wrap is-tab" :class="$options.name" ref="body">
         <div class="route-wrap">
-            <!-- <van-skeleton v-if="list.length === 0" title :row="4" class="margin-top-20px" /> -->
+            <!-- <van-skeleton v-if="list.length === 0" title :row="4" class="mt-10px" /> -->
             <van-pull-refresh v-model="isLoading" @refresh="onRefresh">
                 <div class="lists">
                     <div v-for="(item, index) in list" :key="index" class="item u-border-bottom">

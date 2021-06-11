@@ -13,7 +13,7 @@ import VueBus from './event-bus'
 
 import App from './App.vue'
 
-import 'virtual:windi.css'
+console.log('当前环境: ' + import.meta.env.VITE_APP_ENV)
 
 Vue.use(Croppa)
 Vue.use(VueBus)

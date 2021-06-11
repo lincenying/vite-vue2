@@ -26,6 +26,7 @@
     </div>
 </template>
 <script>
+import 'virtual:windi.css'
 import '@/assets/scss/style.scss'
 import 'vue-croppa/dist/vue-croppa.css'
 

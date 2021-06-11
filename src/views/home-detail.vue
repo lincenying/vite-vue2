@@ -2,7 +2,7 @@
     <div class="home-detail-wrap">
         <van-nav-bar title="" left-text="返回" left-arrow fixed :border="false" @click-left="onClickLeft" class="fixed-center" />
         <div class="route-wrap">
-            <van-skeleton v-if="!detail" title :row="4" class="mt-20px" />
+            <van-skeleton v-if="!detail" title :row="4" class="mt-10px" />
             <div v-else class="article-content">
                 <div class="title text-16px">{{ detail.c_title }}</div>
                 <p class="date-time">{{ detail.c_posttime }}</p>
