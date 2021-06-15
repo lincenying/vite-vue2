@@ -47,7 +47,7 @@ const scrollBehavior = function (to, from, savedPosition) {
 
 export function createRouter() {
     const router = new VueRouter({
-        mode: 'history',
+        mode: 'hash',
         scrollBehavior,
         routes: [
             {

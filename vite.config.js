@@ -22,8 +22,10 @@ const config = ({ mode }) => {
             }
         },
 
+        base: './',
         build: {
-            minify: true
+            minify: true,
+            assetsInlineLimit: 0
         },
 
         plugins: [
